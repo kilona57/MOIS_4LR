@@ -8,14 +8,15 @@ sc_node_not_relation->meteorite;;
 sc_node_not_relation->chemical_compound;;
 sc_node_not_relation->chemical_element;;
 sc_node_not_relation->quartz;;
+sc_node_not_relation->mineral_individual;;
 
-compas=>nrel_main_idtf:[mineral](*<-lang_en;;*);;
-compas=>nrel_main_idtf:[минерал](*<-lang_ru;;*);;
+mineral=>nrel_main_idtf:[mineral](*<-lang_en;;*);;
+mineral=>nrel_main_idtf:[минерал](*<-lang_ru;;*);;
 
 sc_definition -> ...(*
     ->rrel_key_sc_element:mineral;;
 
-    <=nrel_sc_text_translation: ... (*->rrel_example:[Минерал - однородная по составу и строению часть горных пород, руд, метеоритов, являющаяся естественным продуктом геологических процессов и представляющая собой химическое соединение или химический элемент.](*<-lang_ru;;*);;*);;
+    <=nrel_sc_text_translation: ... (*->rrel_example:[Минерал - однородная по составу и строению часть горных пород, руд, метеоритов, являющаяся естественным продуктом геологических процессов и представляющая собой химическое соединение или химический элемент](*<-lang_ru;;*);;*);;
 
     =>nrel_main_idtf:[Опр.(минерал)](*<-lang_ru;;*);;
 
