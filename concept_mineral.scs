@@ -19,14 +19,14 @@ sc_definition -> ...(*
     =>nrel_main_idtf:[Опр.(минерал)](*<-lang_ru;;*);;
 
     =>nrel_using_constants:{
-      mineral
-      part_of_the_rock
-      geological_process
-      composition
-      structure
-      ore
-      meteorite
-      chemical_compound
+      mineral;
+      part_of_the_rock;
+      geological_process;
+      composition;
+      structure;
+      ore;
+      meteorite;
+      chemical_compound;
       chemical_element
     };;
 *);;
