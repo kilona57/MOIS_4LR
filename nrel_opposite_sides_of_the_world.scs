@@ -1,0 +1,80 @@
+composition  <-sc_node_norole_relation;;
+element<-sc_node_not_relation;;
+nature<-sc_node_not_relation;;
+substance<-sc_node_not_relation;;
+Maitotoxin<-sc_node_not_relation;;
+SiO2<-sc_node_not_relation;;
+Si<-sc_node_not_relation;;
+number<-sc_node_not_relation;
+parametr<-sc_node_not_relation;;
+arity<-sc_node_not_relation;;
+binary_relation<-sc_node_not_relation;;
+first_domen<-sc_node_norole_relation;;
+second_domen<-sc_node_norole_relation;;
+set<-sc_node_not_relation;;
+score_of_definition<-sc_node_norole_relation;;
+sc_node_not_relation->antitransitivnoe;;
+sc_node_not_relation->antisimetrichnoe;;
+sc_node_not_relation->antirefleksivnoe;;
+sc_node_not_relation->relation;;
+sc_node_not_relation->undirected_relation;;
+
+composition=>nrel_main_idtf:[composition](*<-lang_en;;*);;
+composition=>nrel_main_idtf:[состав](*<-lang_ru;;*);;
+
+
+sc_definition -> ...(*
+    ->rrel_key_sc_element:opposite_sides_of_the_world;;
+
+    <=nrel_sc_text_translation: ... (*->rrel_example:[Состав - бинарное отношение, связывающее два элемента.](*<-lang_ru;;*);;*);;
+
+    =>nrel_main_idtf:[Опр.(состав)](*<-lang_ru;;*);;
+
+    =>nrel_using_constants:{
+       element
+
+    };;
+*);;
+
+sc_statement -> ...(*
+    ->rrel_key_sc_element:composition;;
+
+    <=nrel_sc_text_translation: ... (*->rrel_example:[Майтотоксин - вещество с самым сложным составом в природе.](*<-lang_ru;;*);;*);;
+
+    =>nrel_main_idtf:[Утв.(Вещество с самым сложным составом)](*<-lang_ru;;*);;
+
+    =>nrel_using_constants:{
+        ;
+        nature;
+        substance;
+        Maitotoxin;;
+    };;
+*);;
+
+SiO2<=>composition:Si;;
+
+parametr->arity;;
+number->2;;
+binary_relation->composition;
+=>2;
+<-arity;;
+
+
+...
+->element;element;
+<=union:set;;
+
+nrel_using_composition
+=>first_domen:element;
+=>second_domen:element;
+=>score_of_definition:set;
+<-antisimetrichnoe;antirefleksivnoe;antitransitivnoe;;
+
+relation
+=>nrel_inclusion:uirected_relation;
+=>nrel_inclusion:binary_relation;;
+
+binary_relation
+=>nrel_inclusion:antisimetrichnoe;
+=>nrel_inclusion:antitransitivnoe;
+=>nrel_inclusion:antirefleksivnoe;;
