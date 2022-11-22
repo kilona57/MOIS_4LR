@@ -5,7 +5,7 @@ substance<-sc_node_not_relation;;
 Maitotoxin<-sc_node_not_relation;;
 SiO2<-sc_node_not_relation;;
 Si<-sc_node_not_relation;;
-number<-sc_node_not_relation;
+number<-sc_node_not_relation;;
 parametr<-sc_node_not_relation;;
 arity<-sc_node_not_relation;;
 binary_relation<-sc_node_not_relation;;
