@@ -7,6 +7,7 @@ sc_node_not_relation->ore;;
 sc_node_not_relation->meteorite;;
 sc_node_not_relation->chemical_compound;;
 sc_node_not_relation->chemical_element;;
+sc_node_not_relation->quartz;;
 
 compas=>nrel_main_idtf:[mineral](*<-lang_en;;*);;
 compas=>nrel_main_idtf:[минерал](*<-lang_ru;;*);;
