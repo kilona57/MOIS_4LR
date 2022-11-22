@@ -1,7 +1,7 @@
 sc_node_not_relation->mineral;;
 sc_node_not_relation->part_of_the_rock;;
 sc_node_not_relation->geological_process;;  
-sc_node_not_relation->composition;;
+sc_node_not_relation->concept_composition;;
 sc_node_not_relation->structure;;
 sc_node_not_relation->ore;;
 sc_node_not_relation->meteorite;;
@@ -24,7 +24,7 @@ sc_definition -> ...(*
       mineral;
       part_of_the_rock;
       geological_process;
-      composition;
+      concept_composition;
       structure;
       ore;
       meteorite;
