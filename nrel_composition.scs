@@ -24,7 +24,7 @@ composition=>nrel_main_idtf:[состав](*<-lang_ru;;*);;
 
 
 sc_definition -> ...(*
-    ->rrel_key_sc_element:opposite_sides_of_the_world;;
+    ->rrel_key_sc_element:composition;;
 
     <=nrel_sc_text_translation: ... (*->rrel_example:[Состав - бинарное отношение, связывающее два элемента.](*<-lang_ru;;*);;*);;
 
