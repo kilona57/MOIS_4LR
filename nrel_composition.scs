@@ -64,7 +64,7 @@ binary_relation->composition;
 ->element;element;
 <=union:set;;
 
-nrel_using_composition
+composition
 =>first_domen:element;
 =>second_domen:element;
 =>score_of_definition:set;
